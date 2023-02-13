@@ -12,8 +12,6 @@ function save() {
     //his.push(count)
     //num.innerText=his.toString();
     
-    
-
 }
 
 
@@ -56,3 +54,6 @@ console.log(message)
 
 */
 
+
+/* new changes
+new practice change*/
