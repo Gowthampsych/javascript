@@ -105,4 +105,23 @@ switch(time)
         console.log("time is not 1,2,3,4,5");
         break;
 }
+
+//Exercise:
+function checkNumber(myNumber)
+{
+    // TODO: write your code here
+    if (myNumber === 42)
+    {
+        console.log("correct");
+    }
+    else
+    {
+        console.log("incorrect");
+    }
+}
+
+checkNumber(3);
+checkNumber(7);
+checkNumber(42);
+
 */
