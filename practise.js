@@ -65,7 +65,7 @@ var j = 234
 var i = 23;
 var j = 234;
 var f = 123;
- if (i<j && j>f)
+ if (i<j && j<f)
  {
     console.log("i is lesser than j AND j is greater than f");
  }
@@ -74,6 +74,15 @@ var f = 123;
     console.log("i is lesser than j OR j is lesser than f");
  }
 
- */
+ // NOT operator:
+var gt = true;
+if (!gt)
+{
+    console.log("not gt is false");
+}
+else
+{
+    console.log("if condition fails");
+}
 
-
+*/
