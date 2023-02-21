@@ -85,4 +85,24 @@ else
     console.log("if condition fails");
 }
 
+// SWITCH 
+var time = 4;
+switch(time)
+{
+    case 1 :
+    case 2 :
+        console.log("time is either 1 or 2");
+        break;
+    case 3:
+        console.log("time is 3");
+        break;
+    case 4:
+        console.log("time is 4 without break statement");
+    case 5:
+        console.log("time is 5");
+        break;
+    default:
+        console.log("time is not 1,2,3,4,5");
+        break;
+}
 */
