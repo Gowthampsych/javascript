@@ -122,7 +122,7 @@ function checkNumber(myNumber)
 
 checkNumber(3);
 checkNumber(7);
-checkNumber(42);
+checkNumber(42)
 
 
 //LOOP:
@@ -171,7 +171,6 @@ for (i = 0; i<10; i++)
     console.log(i)
 }
 
-*/
 
 var emptyObject = {};
 var personObject = {
@@ -192,4 +191,12 @@ console.log(hi);
 hi["ddas"] = "fsdfg";
 console.log(hi);
 
+*/
+for (var mem in hi)
+{
+    if(hi.hasOwnProperty(mem)
+    {
+        console.log(mem+" "+hi);
+    }
+}
 
