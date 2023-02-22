@@ -124,4 +124,22 @@ checkNumber(3);
 checkNumber(7);
 checkNumber(42);
 
-*/
+
+//LOOP:
+// for statement:
+ var i = 0;
+ for(i=0;i<5;i++)
+ {
+    console.log(i)
+ }
+
+ 
+ var h = [1,2,3,4,5,6];
+ for (i=0;i<h.length;i++)
+ {
+    console.log(i + " " + h[i]);
+ }
+
+ */
+
+ 
