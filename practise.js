@@ -172,3 +172,24 @@ for (i = 0; i<10; i++)
 }
 
 */
+
+var emptyObject = {};
+var personObject = {
+    firstName : "John",
+    lastName : "Smith"
+}
+personObject.age = 23;
+personObject["salary"] = 14000;
+
+console.log(personObject);
+
+var hi = {
+jij : "gfdbg"
+}
+console.log(hi);
+hi.kli = "fdsgf";
+console.log(hi);
+hi["ddas"] = "fsdfg";
+console.log(hi);
+
+
