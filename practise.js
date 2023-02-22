@@ -140,6 +140,35 @@ checkNumber(42);
     console.log(i + " " + h[i]);
  }
 
- */
+// while loop
 
- 
+var f = 100;
+while(f>0)
+{
+console.log(f);
+f = f-1;
+}
+
+var i = 99;
+while (true)
+{
+    console.log(i);
+    i -= 1;
+
+    if (i == 0)
+    {
+        break;
+    }
+}
+
+var i;
+for (i = 0; i<10; i++)
+{
+    if(i%2 == 0)
+    {
+        continue;
+    }
+    console.log(i)
+}
+
+*/
